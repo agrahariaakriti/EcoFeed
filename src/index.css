@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-/* Keep your dark variant */
-@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant dark (&:where(.dark,.dark *));
+
